@@ -43,53 +43,54 @@ const Glass = () => {
             </div>
             <div className="pro">
               <h2>Join Pro for free games</h2>
-              <img src="controller" alt="Controller" />
+              <img src={controller} alt="Controller" />
             </div>
-            <div className="games">
-              <div className="status">
-                <h1>Active Games</h1>
-                <input type="text" />
+          </div>
+
+          <div className="games">
+            <div className="status">
+              <h1>Active Games</h1>
+              <input type="text" />
+            </div>
+            <div className="cards">
+              <div className="card">
+                <img src={assassins} alt="Assassins" />
+                <div className="cardInfo">
+                  <h2>Assassins Creed Valhalla</h2>
+                  <p>PS5</p>
+                  <div className="progress"></div>
+                </div>
+                <h2 className="percentage">60%</h2>
               </div>
-              <div className="cards">
-                <div className="card">
-                  <img src={assassins} alt="Assassins" />
-                  <div className="cardInfo">
-                    <h2>Assassins Creed Valhalla</h2>
-                    <p>PS5</p>
-                    <div className="progress"></div>
-                  </div>
-                  <h2 className="percentage">60%</h2>
-                </div>
 
-                <div className="card">
-                  <img src="assassins" alt="Assassins" />
-                  <div className="cardInfo">
-                    <h2>Assassins Creed Valhalla</h2>
-                    <p>PS5</p>
-                    <div className="progress"></div>
-                  </div>
-                  <h2 className="percentage">60%</h2>
+              <div className="card">
+                <img src="assassins" alt="Assassins" />
+                <div className="cardInfo">
+                  <h2>Assassins Creed Valhalla</h2>
+                  <p>PS5</p>
+                  <div className="progress"></div>
                 </div>
+                <h2 className="percentage">60%</h2>
+              </div>
 
-                <div className="card">
-                  <img src="assassins" alt="Assassins" />
-                  <div className="cardInfo">
-                    <h2>Assassins Creed Valhalla</h2>
-                    <p>PS5</p>
-                    <div className="progress"></div>
-                  </div>
-                  <h2 className="percentage">60%</h2>
+              <div className="card">
+                <img src="assassins" alt="Assassins" />
+                <div className="cardInfo">
+                  <h2>Assassins Creed Valhalla</h2>
+                  <p>PS5</p>
+                  <div className="progress"></div>
                 </div>
+                <h2 className="percentage">60%</h2>
+              </div>
 
-                <div className="card">
-                  <img src="assassins" alt="Assassins" />
-                  <div className="cardInfo">
-                    <h2>Assassins Creed Valhalla</h2>
-                    <p>PS5</p>
-                    <div className="progress"></div>
-                  </div>
-                  <h2 className="percentage">60%</h2>
+              <div className="card">
+                <img src="assassins" alt="Assassins" />
+                <div className="cardInfo">
+                  <h2>Assassins Creed Valhalla</h2>
+                  <p>PS5</p>
+                  <div className="progress"></div>
                 </div>
+                <h2 className="percentage">60%</h2>
               </div>
             </div>
           </div>
