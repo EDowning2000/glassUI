@@ -56,7 +56,7 @@ const Glass = () => {
               <div className="card">
                 <img src={assassins} alt="Assassins" />
                 <div className="cardInfo">
-                  <h2>Assassins Creed Valhalla</h2>
+                  <h2>Assassins Creed</h2>
                   <p>PS5</p>
                   <div className="progress"></div>
                 </div>
@@ -64,9 +64,9 @@ const Glass = () => {
               </div>
 
               <div className="card">
-                <img src={assassins} alt="Assassins" />
+                <img src={sackboy} alt="Assassins" />
                 <div className="cardInfo">
-                  <h2>Assassins Creed Valhalla</h2>
+                  <h2>Sackboy</h2>
                   <p>PS5</p>
                   <div className="progress"></div>
                 </div>
@@ -74,9 +74,9 @@ const Glass = () => {
               </div>
 
               <div className="card">
-                <img src={assassins} alt="Assassins" />
+                <img src={spiderman} alt="Assassins" />
                 <div className="cardInfo">
-                  <h2>Assassins Creed Valhalla</h2>
+                  <h2>Spiderman Homecoming</h2>
                   <p>PS5</p>
                   <div className="progress"></div>
                 </div>
