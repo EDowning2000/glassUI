@@ -50,7 +50,7 @@ const Glass = () => {
           <div className="games">
             <div className="status">
               <h1>Active Games</h1>
-              <input type="text" />
+              <input type="text" placeholder="Search Games" />
             </div>
             <div className="cards">
               <div className="card">
