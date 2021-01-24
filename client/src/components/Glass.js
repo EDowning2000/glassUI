@@ -64,7 +64,7 @@ const Glass = () => {
               </div>
 
               <div className="card">
-                <img src="assassins" alt="Assassins" />
+                <img src={assassins} alt="Assassins" />
                 <div className="cardInfo">
                   <h2>Assassins Creed Valhalla</h2>
                   <p>PS5</p>
@@ -74,7 +74,7 @@ const Glass = () => {
               </div>
 
               <div className="card">
-                <img src="assassins" alt="Assassins" />
+                <img src={assassins} alt="Assassins" />
                 <div className="cardInfo">
                   <h2>Assassins Creed Valhalla</h2>
                   <p>PS5</p>
@@ -83,15 +83,15 @@ const Glass = () => {
                 <h2 className="percentage">60%</h2>
               </div>
 
-              <div className="card">
-                <img src="assassins" alt="Assassins" />
+              {/* <div className="card">
+                <img src={assassins} alt="Assassins" />
                 <div className="cardInfo">
                   <h2>Assassins Creed Valhalla</h2>
                   <p>PS5</p>
                   <div className="progress"></div>
                 </div>
                 <h2 className="percentage">60%</h2>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
